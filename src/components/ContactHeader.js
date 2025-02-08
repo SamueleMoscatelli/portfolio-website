@@ -11,12 +11,12 @@ export function ContactHeader() {
                     Whether you have a question, a project idea, or just want to say hi, feel free to reach out!
                 </p>
                 <p className="text-lg md:text-xl text-gray-300 mt-4">You can find me on:</p>
-                <div className="mt-4 flex justify-center space-x-6">
+                <div className="mt-4 flex flex-wrap justify-center gap-4 sm:gap-6">
                     <a
-                        href="mailto:samuele.moscatelli1@gmail.com"
+                        href="https://www.linkedin.com/in/samuele-moscatelli/"
                         className="flex items-center text-blue-400 hover:text-blue-300 transition text-2xl"
                     >
-                        <AiOutlineMail className="mr-3 text-3xl" /> Email
+                        <AiOutlineMail className="mr-2 sm:mr-3 text-3xl" /> Email
                     </a>
                     <a
                         href="https://www.linkedin.com/in/samuele-moscatelli/"
@@ -24,7 +24,7 @@ export function ContactHeader() {
                         rel="noopener noreferrer"
                         className="flex items-center text-blue-400 hover:text-blue-300 transition text-2xl"
                     >
-                        <FaLinkedinIn className="mr-3 text-3xl" /> LinkedIn
+                        <FaLinkedinIn className="mr-2 sm:mr-3 text-3xl" /> LinkedIn
                     </a>
                     <a
                         href="https://github.com/SamueleMoscatelli"
@@ -32,7 +32,7 @@ export function ContactHeader() {
                         rel="noopener noreferrer"
                         className="flex items-center text-blue-400 hover:text-blue-300 transition text-2xl"
                     >
-                        <FaGithub className="mr-3 text-3xl" /> GitHub
+                        <FaGithub className="mr-2 sm:mr-3 text-3xl" /> GitHub
                     </a>
                 </div>
             </section>
