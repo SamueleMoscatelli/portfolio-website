@@ -5,6 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true,  // Disable image optimization
   },
+  assetPrefix: '/portfolio-website/',
+  basePath: '/portfolio-website',
 };
 
 export default nextConfig;
