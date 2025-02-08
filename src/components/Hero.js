@@ -1,6 +1,7 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import Image from 'next/image';  // Importing Image component
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -51,9 +52,11 @@ export default function Hero() {
         </p>
 
         {/* Button */}
-        <button className="bg-blue-500 text-white py-3 px-8 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 transform hover:scale-105">
-          See My Work
-        </button>
+        <Link href="/projects">
+          <button className="bg-blue-500 text-white py-3 px-8 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 transform hover:scale-105">
+            See My Work
+          </button>
+        </Link>
       </section>
     </div>
   );
