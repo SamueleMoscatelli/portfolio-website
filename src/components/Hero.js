@@ -10,7 +10,7 @@ export default function Hero() {
         {/* Profile Image */}
         <div className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 xl:w-64 xl:h-64 mx-auto mb-8">
           <Image
-            src="/images/Picture.png"  // Path relative to the public folder
+            src="/portfolio-website/images/Picture.png"  // Path relative to the public folder
             alt="Samuele Moscatelli"
             layout="intrinsic"  // Keep image's aspect ratio
             width={2000}  // Image's original width
