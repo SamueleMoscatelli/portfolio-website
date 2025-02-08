@@ -1,0 +1,39 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Deploy only when changes are pushed to the `main` branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Set up Node.js environment
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: |
+          npm install
+
+      - name: Build Next.js site
+        run: |
+          npm run build
+
+      - name: Export Next.js site to static files
+        run: |
+          npm run export
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.2
+        with:
+          branch: gh-pages  # Deploy to the gh-pages branch
+          folder: out  # The folder containing the static export (default is `out` for Next.js)
+          token: ${{ secrets.GITHUB_TOKEN }}  # Token for authentication (automatically available in GitHub Actions)
