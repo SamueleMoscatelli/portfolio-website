@@ -1,14 +1,21 @@
+import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import AboutIntro from '../components/AboutIntro';
+import Journey from '../components/Journey';
+import Skills from '../components/Skills';
+import WorkExperience from '../components/WorkExperience';
+import CallToAction from '../components/CallToAction';
 
 export default function About() {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen bg-gray-900 text-white">
       <Navbar />
-      <section className="py-24 text-center">
-        <h1 className="text-3xl font-bold">About Me</h1>
-        <p className="mt-4">A little bit about myself...</p>
-      </section>
+      <AboutIntro />
+      <Journey />
+      <Skills />
+      <WorkExperience />
+      <CallToAction />
       <Footer />
     </div>
   );
