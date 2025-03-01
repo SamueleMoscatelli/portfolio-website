@@ -11,19 +11,19 @@ export default function WorkExperience() {
                     role="Tech Lead"
                     company="Accenture DACH"
                     duration="September 2024 - Present"
-                    description="Tech lead in leading Swiss bank project."
-                />
-                <SingleExperience
-                    role="Tech Lead"
-                    company="Accenture DACH"
-                    duration="December 2023 - August 2024"
-                    description="Tech Lead in leading German retailer project."
+                    description="Led the refactoring and implementation of the test automation strategy over a stream of 6 teams in a leading Swiss bank."
                 />
                 <SingleExperience
                     role="Senior Software Engineer"
                     company="Accenture DACH"
-                    duration="August 2021 - November 2023"
-                    description="Senior Software Engineer in leading German retailer project."
+                    duration="December 2022 - August 2024"
+                    description="Developed and tested the new marketplace application of a leading German retailer. Led the development of a GPT-3.5-powered application to automate defect management across 100+ teams."
+                />
+                <SingleExperience
+                    role="Software Engineer"
+                    company="Accenture DACH"
+                    duration="August 2021 - November 2022"
+                    description="Developed and tested the marketplace application of a leading German retailer."
                 />
             </div>
         </section>
