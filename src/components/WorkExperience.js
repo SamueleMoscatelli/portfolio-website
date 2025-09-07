@@ -8,7 +8,7 @@ export default function WorkExperience() {
             </h2>
             <div className="space-y-6">
                 <SingleExperience
-                    role="Senior Software Engineer"
+                    role="Tech Lead"
                     company="Accenture DACH"
                     duration="September 2024 - Present"
                     description="Led the refactoring and implementation of the test automation strategy over a stream of 6 teams in a leading Swiss bank."
