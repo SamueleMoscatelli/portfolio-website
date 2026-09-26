@@ -8,25 +8,25 @@ export default function WorkExperience() {
             </h2>
             <div className="space-y-6">
                 <SingleExperience
-                    role="Software Engineering Associate Manager"
+                    role="Software Engineering Associate Manager (Forward Deployed), Financial Services"
                     company="Accenture DACH"
                     duration="June 2026 - Present"
                     description="Accelerated AI adoption across a stream of 6 teams in a leading Swiss bank."
                 />
                 <SingleExperience
-                    role="Tech Lead"
+                    role="Tech Lead (Forward Deployed), Financial Services"
                     company="Accenture DACH"
                     duration="September 2024 - May 2026"
-                    description="Led the refactoring and implementation of the test automation strategy over a stream of 6 teams in a leading Swiss bank."
+                    description="Designed and led the implementation of a distributed pricing calculation service for a leading Swiss bank."
                 />
                 <SingleExperience
-                    role="Senior Software Engineer"
+                    role="Senior Software Engineer (Forward Deployed), Retail"
                     company="Accenture DACH"
                     duration="December 2022 - August 2024"
                     description="Developed and tested the new marketplace application of a leading German retailer. Led the development of a GPT-3.5-powered application to automate defect management across 100+ teams."
                 />
                 <SingleExperience
-                    role="Software Engineer"
+                    role="Software Engineer (Forward Deployed), Retail"
                     company="Accenture DACH"
                     duration="August 2021 - November 2022"
                     description="Developed and tested the marketplace application of a leading German retailer."

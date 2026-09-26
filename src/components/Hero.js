@@ -27,6 +27,8 @@ export default function Hero() {
         {/* Type Animation */}
         <TypeAnimation
           sequence={[
+            'Forward Deployed Engineer 💡', 2000,
+            'Software Engineering Associate Manager 👔', 2000,
             'Tech Lead 🧠', 2000,
             'Software Engineer 💻', 2000,
             'Deep Learning Enthusiast 🤖', 2000
@@ -38,7 +40,7 @@ export default function Hero() {
 
         {/* Introduction Paragraph */}
         <p className="text-lg md:text-xl mb-6 max-w-2xl mx-auto leading-relaxed">
-          <span className="text-2xl font-semibold text-blue-500">I’m Samuele Moscatelli,</span> a Tech Lead and Software Engineer with a deep passion for <span className="text-purple-400">Artificial Intelligence</span> and cutting-edge technology.
+          <span className="text-2xl font-semibold text-blue-500">I’m Samuele Moscatelli,</span> a Forward Deployed Engineer with a deep passion for <span className="text-purple-400">Artificial Intelligence</span> and cutting-edge technology.
         </p>
 
         {/* New Line Text */}
